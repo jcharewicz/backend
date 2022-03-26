@@ -9,7 +9,7 @@ import java.nio.file.Path;
         public static String Ex6() throws IOException {
             Path file = Path.of("file2.txt");
             String fileContent = Files.readString(file);
-            String[] splittedText = fileContent.split("\r\n");
+            String[] splittedText = fileContent.split("\n");
             String value = null;
 
             for(int i = 0; i < splittedText.length; ++i)
