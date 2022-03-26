@@ -1,0 +1,1 @@
+ pierwsza linijka \r\n druga linijka \r\n trzecia linijka \r\n
